@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity.Model;
+package com.LEGUA.lab_7.Entity.Model;
 
 public class Product {
     private Long id;
@@ -21,4 +21,5 @@ public class Product {
 
     public Double getPrice() { return price; }
     public void setPrice(Double price) { this.price = price; }
+
 }
