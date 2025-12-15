@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity.graphcontroller;
+package com.LEGUA.lab_7.Entity.graphcontroller;
 
 import com.alabado.lab7.entity.Invoice;
 import com.alabado.lab7.service.InvoiceService;
@@ -32,4 +32,5 @@ public class InvoiceGraphQL {
     public Invoice addInvoice(@Argument Long customerId, @Argument List<Long> productIds) {
         return service.add(customerId, productIds);
     }
+
 }
