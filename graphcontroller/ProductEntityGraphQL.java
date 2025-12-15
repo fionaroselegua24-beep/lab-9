@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity.graphcontroller;
+package com.LEGUA.lab_7.Entity.graphcontroller;
 
 import com.alabado.lab7.entity.Product;
 import com.alabado.lab7.service.ProductService;
@@ -32,4 +32,5 @@ public class ProductEntityGraphQL {
     public Product addProduct(@Argument String name) {
         return service.add(name);
     }
+
 }
