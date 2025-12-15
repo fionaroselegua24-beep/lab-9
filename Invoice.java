@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity;
+package com.LEGUA.lab_7.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -26,4 +26,5 @@ public class Invoice {
     )
     private List<Product> products;
 }
+
 
