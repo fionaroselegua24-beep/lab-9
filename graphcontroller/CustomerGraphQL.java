@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity.graphcontroller;
+package com.LEGUA.lab_7.Entity.graphcontroller;
 
 import com.alabado.lab7.entity.Customer;
 import com.alabado.lab7.service.CustomerService;
@@ -33,3 +33,4 @@ public class CustomerGraphQL {
         return service.add(name);
     }
 }
+
