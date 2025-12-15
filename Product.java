@@ -1,4 +1,4 @@
-package com.grefiel.lab_7.Entity;
+package com.grefielLEGUA.lab_7.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -19,3 +19,4 @@ public class Product {
     @ManyToMany(mappedBy = "products")
     private List<Invoice> invoices;
 }
+
